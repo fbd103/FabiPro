@@ -1,0 +1,32 @@
+<html>
+    <head></head>
+    <body>
+         	
+            <script> 
+
+                    cpt =3;
+                    for(var i= 0;i=3;i++)
+                    { 
+                        var x= prompt("saisir un nombre entre 0 et 9");
+                        resul = Math.floor(Math.random() * 9); 
+                        if(x == resul)
+                        {
+                            alert("super tu a gagner");
+                            break;
+                        }else{
+                            cpt = cpt-1;
+                            alert("tu a perdu il te reste "+ cpt +"essayes");
+                        }
+                        
+                        if(cpt == 0)
+                        {
+                            alert("tu a perdu");
+                            break;
+                        }
+                    }
+                
+                    
+                </script>
+    </body>
+   
+</html>
